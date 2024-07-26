@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".Register"
+    tools:ignore="ExtraText">
+
+
+    <EditText
+        android:id="@+id/Fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:hint="Full Name"
+        android:textColorHint="#000"
+        android:textSize="20sp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:hint="Mobile number"
+        android:textColorHint="#000"
+        android:textSize="20sp"
+
+
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/emailadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Email Address*"
+        android:textColorHint="#000"
+        android:textSize="20sp"
+
+
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/regPaasword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Paasword"
+        android:minHeight="48dp"
+        android:textColorHint="#00f"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+
+        android:id="@+id/Conpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="17dp"
+        android:hint="Confirm Paasword"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:textColorHint="#00f"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70sp"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:text="Remember me next time"
+            android:textColor="#000000" />.
+
+        <Switch
+            android:id="@+id/swbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/regbtn"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="10dp"
+        android:text="Register" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-50dp"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:text="Already have an account."
+        android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/loginbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Login"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
